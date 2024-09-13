@@ -26,12 +26,12 @@ SECRET_KEY = 'django-insecure-e0qlm@v1wd+zu4-xp0)+25n=$ifsp559&ln!s^7rnv!jlnc)%g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['vikamper.eu.pythonanywhere.com',
+ALLOWED_HOSTS = ['websb.eu.pythonanywhere.com',
                  '127.0.0.1',
                  'kamperv.eu.pythonanywhere.com',
                  'vkamper.eu.pythonanywhere.com',
                  'https://eerste-d-o-t-sbwe-d-o-t-nl-d-o-t-old.alvast-online.nl/',
-                 'www.eerste.sbwe.nl',]
+                 'www.sbwe.nl',]
 
 
 # Application definition
@@ -135,7 +135,8 @@ STATICFILES_DIRS = [BASE_DIR / 'paginas' /'static',]
 
 # The directory where static files will be collected
 STATIC_ROOT = 'staticfiles'
-STATIC_ROOT= '/home/deb16246n4/domains/test.sbwe.nl.old/public_html/staticfiles'
+STATIC_ROOT = 'static'
+# STATIC_ROOT= '/home/deb16246n4/domains/test.sbwe.nl.old/public_html/staticfiles'
 
 #     os.path.join(BASE_DIR, "static"),
 
