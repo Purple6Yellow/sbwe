@@ -2,22 +2,38 @@
 {% load static %}
 {% block inhoud2 %}
 
-
-<!------------------------------------- LAPTOP / DESKTOP ---------------------------------------------------------------> 
-<div class="verbergenMobiel">
-<!---->
+<!------------------------------------- LAPTOP / DESKTOP --------------------------------------------------------------->
+<!--------------------HEADER--------------------------------------------------------------------------------------------------------->
 <div class="row">
-    <div class="img-container-home">
-        <img src="{% static 'img/Paginas/BKBuiten4.jpg' %}" alt="header-home">
-        <div class="img-txt-home">
-            <p>
+    <div class="col-12"> 
+        <div class="img-container-home"> 
+            <!--<img src="{% static 'img/Paginas/Lucht_Header3.jpg'  %}" alt="header-sbwe">  -->    
+            <img src="{% static 'img/Paginas/BKBuiten5.jpg'  %}" alt="header-sbwe">       
+            <div class = "img-txt-home font-18 verbergenMobiel"> 
                 Achter elke gevel gaat een verhaal schuil en die verhalen zijn de moeite van het
                 vertellen waard.
-            </p> 
-        </div>
+            </div>
+        </div> 
     </div>
 </div>
-<!---->
+<!------->
+<!--sjabloon in basisweb1, wordt volgens mij niet gebruikt, omdat tekst dubbel op pagina komt te staan-->
+{% block txt %}
+{% endblock %}
+<!------->
+<!--------------------EINDE>>HEADER--------------------------------------------------------------------------------------------------->
+<div class="row">
+    <div class="col-12"> 
+        <div class="img-container-sbwe"> 
+            <!--<img src="{% static 'img/Paginas/Lucht_Header3.jpg'  %}" alt="header-sbwe">  -->    
+            <img src="{% static 'img/Paginas/BKBuiten5.jpg'  %}" alt="header-sbwe">       
+            <div class = "img-txt-sbwe font-20B verbergenMobiel"> 
+          
+            </div>
+        </div> 
+    </div>
+</div>
+ <!------->
 <div class = "row font-12 opmaak-home">
     <p>
         Waarborgen van oorspronkelijke stedelijke bebouwing in Den Haag en 
@@ -25,17 +41,12 @@
         is waar Stichting Behoud Waardevol Erfgoed voor staat. 
     </p> 
 </div>
-<!---->
-</div>
-
 <!------------------------------------- EINDE>>LAPTOP / DESKTOP ---------------------------------------------------------> 
-
-
 <!-----------------------------------------MOBIELE VERSIE---------------------------------------------------------------->
 <div class="verbergenLaptop"> <!-- onzichtbaar indien geen mobiel -->
 <!---->
-<div class = "row"></div>
-    <div class="img-container-home">
+<div class = "row">
+    <div class="img-container-home verbergenLaptop">
         <img src="{% static 'img/Paginas/BKBuiten2.jpg' %}" alt="header-home">
         <div class=""></div>
     </div>
@@ -68,5 +79,3 @@
 {% endblock %}
 <!------------------------------------------------------------------------------------------------------------------------>
 
-{% block txt %}
-{% endblock %}
