@@ -27,6 +27,7 @@ SECRET_KEY = 'django-insecure-e0qlm@v1wd+zu4-xp0)+25n=$ifsp559&ln!s^7rnv!jlnc)%g
 DEBUG = True
 
 ALLOWED_HOSTS = ['websb.eu.pythonanywhere.com',
+                 'vak.eu.pythonanywhere.com', 
                  '127.0.0.1',
                  'kamperv.eu.pythonanywhere.com',
                  'vkamper.eu.pythonanywhere.com',
