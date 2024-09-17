@@ -125,64 +125,32 @@ header{/* nodig voor menu */
     position:absolute;
         top:10%;
         right: 5%;}
-
 /* -----------------------------BASISWEB1: EINDE-----------------------------------------------------------------------------  */
 /* -----------------------------INDEX-------------------------------------------------------------------  */
-.img-container-home{
-    position: relative;}
-
-.img-container-home img{
-    position: relative;
-        top:0%;    
-        left:0%;
-    transform: translate(-.5%, -10%);
-    max-height: 80%;
-    opacity: 1;
-    z-index:1;} 
-
-.img-txt-home{ /*vlak in foto/header */
-    background-color: inherit;
-    position: absolute;
-        top: 0%;
-        left: 0%;
-    transform: translate(0%, 0%);
-    max-height: 30%;
-    width: 30%;
-    z-index:300;
-    background-color:inherit;
-    max-width:100%;
-    text-align:center;
-    padding-left:45%;}
-
-.img-txt-home p{ /* tekst in de header/ op de foto */
-    color: hsla(240, 39%, 45%, 0.51);
-    font-family: 'Gill Sans', Arial, Helvetica, sans-serif;
-    font-size:30px; /* gelijk aan font-12 */
-    font-weight: bold;
-    line-height: 1.6;} 
-
 #buttonBK{
     position:absolute;
-        right: 0%;
+        right: 10%;
         top:50%;
     transform: translate(0%, 0%);
     background-color:hsla(193, 92%, 15%, 0.882);
     color:white;
-    height: 20%;
+    height: 10%;
     border:solid 2px hsla(193, 92%, 15%, 0.882);
     border-radius:2%;
     z-index:300;}
 
 .opmaak-home{
-    width:80%;
-    padding-left:10%;
-    padding-right:10%;
-    vertical-align: center;
-    text-align: center;
-    background-color:purple;}
+    position:relative;
+        top:0%;
+        left:5%;
+        transform: translate(0%, -10%); /*horizontaal versus verticaal */
+    width: 90%;
+    vertical-align: middle;
+    background-color:inherit;}
+
+/* MOBIEL */
+.mob-wrapper{display: none;}
 /* -----------------------------INDEX EINDE---------------------------------------------------------------  */
-
-
 
 
 /* ------------------------------@MEDIA AFSLUITING-------------------------------------------------------*/

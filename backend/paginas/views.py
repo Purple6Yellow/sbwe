@@ -25,7 +25,7 @@ def reserveringBK (request):
     return render (request, 'CC/reserveringBK.html' )
 
 def voorwaardenBK (request):
-    return render (request, 'CC/voorwaardenBK.html' )
+    return render (request, 'CC/CCvoorwaardenBK.html' )
 
 def impressieBK (request):
     return render (request, 'CC/impressieBK.html' )

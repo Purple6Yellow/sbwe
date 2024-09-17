@@ -12,7 +12,7 @@ urlpatterns = [
     #CC:
     path('CC/verhuurBK.html', views.verhuurBK),
     path('CC/reserveringBK.html', views.reserveringBK),
-    path('CC/voorwaardenBK.html', views.voorwaardenBK),
+    path('CC/CCvoorwaardenBK.html', views.voorwaardenBK),
     path('CC/impressieBK.html', views.impressieBK),
     path('CC/CCinrichting.html', views.inrichtingBK),
     path('CC/agenda.html', views.agenda),
